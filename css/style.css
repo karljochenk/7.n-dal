@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/võiku1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: rgba(255, 255, 255, 0.822);
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/võiku2.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    }
+
+    .container {
+        background-color: rgb(13, 109, 109);
+        color: rgba(144, 243, 165, 0.712);
+        border: 3px solid rgb(8, 185, 171);
+        width: 100%;
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/võiku3.png');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    }
+    .container {
+        
+        background-color: rgb(241, 241, 187);
+        color: rgba(33, 19, 160, 0.856);
+        border: 3px solid rgb(194, 119, 6);
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1024px){
+        
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/võiku4.webp');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    }
+    .container {
+        
+        background-color: rgb(61, 61, 61);
+        color: rgba(192, 125, 0, 0.911);
+        border: 3px solid rgb(137, 202, 211);
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width: 1200px){
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+    .image-container {   
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/võiku1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;  
+    }
+    .container {
+        
+        background-color: rgb(228, 171, 215);
+        color: rgb(48, 15, 5);
+        border: 3px solid rgb(164, 6, 204);
+        width: 100%;
+    }
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid rgb(0, 0, 0);
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
